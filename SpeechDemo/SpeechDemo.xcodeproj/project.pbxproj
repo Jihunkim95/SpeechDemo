@@ -46,6 +46,7 @@
 		5C3F89162BB14EC600826A0D /* SpeechDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3F891A2BB14EC600826A0D /* SpeechDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDemoUITests.swift; sourceTree = "<group>"; };
 		5C3F891C2BB14EC600826A0D /* SpeechDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C3F89292BB14F2E00826A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		5C3F88FC2BB14EC400826A0D /* SpeechDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C3F89292BB14F2E00826A0D /* Info.plist */,
 				5C3F88FD2BB14EC400826A0D /* SpeechDemoApp.swift */,
 				5C3F88FF2BB14EC400826A0D /* ContentView.swift */,
 				5C3F89012BB14EC400826A0D /* Item.swift */,
@@ -429,6 +431,7 @@
 				DEVELOPMENT_TEAM = KVX67TSKSQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +461,7 @@
 				DEVELOPMENT_TEAM = KVX67TSKSQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
